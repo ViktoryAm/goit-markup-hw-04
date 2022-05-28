@@ -162,6 +162,8 @@ body {
 
 .mail-contact,
 .phone-contact {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -169,16 +171,32 @@ body {
 
   color: #757575;
 }
+
+.header-mail-icon,
+.header-phone-icon {
+  fill: #757575;
+  margin-right: 10px;
+}
+
 .mail-contact:hover,
 .mail-contact:focus {
-  color: #2196f3;
+  color: var(--accent-color-nav);
 }
+
+.mail-contact:hover .header-mail-icon,
+.mail-contact:focus .header-mail-icon {
+  fill: var(--accent-color-nav);
+}
+
 .phone-contact:hover,
 .phone-contact:focus {
-  color: #2196f3;
+  color: var(--accent-color-nav);
 }
 
-
+.phone-contact:hover .header-phone-icon,
+.phone-contact:focus .header-phone-icon {
+  fill: var(--accent-color-nav);
+}
 
 /*Hero*/
 
