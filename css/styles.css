@@ -178,7 +178,7 @@ body {
   color: #2196f3;
 }
 
-.mail-contact::before
+
 
 /*Hero*/
 
@@ -294,6 +294,7 @@ body {
 .team-description {
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 15px;
 }
 
 .team-list {
@@ -309,6 +310,39 @@ body {
 
 .team-content-wrapper {
   padding: 30px 10px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-list-item:not(:last-child) {
+margin-right: 10px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+
+.social-list-icon {
+  fill:#afb1b8;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #2196F3;
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: #FFFFFF;
 }
 
 /*Footer*/
