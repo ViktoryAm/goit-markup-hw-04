@@ -71,24 +71,44 @@
         <div class="container features-container">
           <ul class="features-list list">
             <li class="features-item">
+              <div class="features-icon-wrapper">
+                <svg class="features-icon" width="65" height="70">
+                  <use href="./images/sprite.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="features-name section-subtitle">Внимание к деталям</h3>
               <p class="description">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
             <li class="features-item">
+              <div class="features-icon-wrapper">
+                <svg class="features-icon" width="65" height="70">
+                  <use href="./images/sprite.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="features-name section-subtitle">Пунктуальность</h3>
               <p class="description">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
             <li class="features-item">
+              <div class="features-icon-wrapper">
+                <svg class="features-icon" width="65" height="70">
+                  <use href="./images/sprite.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="features-name section-subtitle">Планирование</h3>
               <p class="description">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
             <li class="features-item">
+              <div class="features-icon-wrapper">
+                <svg class="features-icon" width="65" height="70">
+                  <use href="./images/sprite.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="features-name section-subtitle">Современные технологии</h3>
               <p class="description">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -312,34 +332,122 @@
           </ul>
         </div>
       </section>
+      <!--Наши клиенты-->
+      <section class="section clients">
+        <div class="container">
+          <h2 class="section-titel">Постоянные клиенты</h2>
+          <ul class="list clients-list">
+            <li class="clients-list-item">
+              <a href="" class="clients-list-link link">
+                <svg class="clients-list-icon" width="94" height="44">
+                  <use href="./images/sprite.svg#icon-group"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-list-item">
+              <a href="" class="clients-list-link link">
+                <svg class="clients-list-icon" width="94" height="44">
+                  <use href="./images/sprite.svg#icon-group_1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-list-item">
+              <a href="" class="clients-list-link link">
+                <svg class="clients-list-icon" width="94" height="44">
+                  <use href="./images/sprite.svg#icon-group_2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-list-item">
+              <a href="" class="clients-list-link link">
+                <svg class="clients-list-icon" width="94" height="44">
+                  <use href="./images/sprite.svg#icon-group_3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-list-item">
+              <a href="" class="clients-list-link link">
+                <svg class="clients-list-icon" width="94" height="44">
+                  <use href="./images/sprite.svg#icon-group_4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-list-item">
+              <a href="" class="clients-list-link link">
+                <svg class="clients-list-icon" width="94" height="44">
+                  <use href="./images/sprite.svg#icon-group_5"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
       <div class="container footer-container">
-        <!--Текстовый логотип-->
-        <a class="logo footer-logo link" href="./index.html"
-          >Web<span class="logo-white">Studio</span></a
-        >
-        <!--Контактные данные-->
-        <address class="address" id="contacts">
-          <ul class="address-list list">
-            <li class="address-item">
-              <a
-                class="map-address-link link"
-                href="https://goo.gl/maps/VPMw7j8DaaKpMJ5V8"
-                target="_blank"
-                rel="noopener noreferrer"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
+        <div class="footer-contacts-wrapper">
+          <!--Текстовый логотип-->
+          <a class="logo footer-logo link" href="./index.html"
+            >Web<span class="logo-white">Studio</span></a
+          >
+          <!--Контактные данные-->
+          <address class="address" id="contacts">
+            <ul class="address-list list">
+              <li class="address-item">
+                <a
+                  class="map-address-link link"
+                  href="https://goo.gl/maps/VPMw7j8DaaKpMJ5V8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address-item">
+                <a class="mail-address-link link" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a class="tel-address-link link" href="tel:+380991111111">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="footer-social-wrapper">
+          <h3 class="section-subtitle footer-subtitle">присоединяйтесь</h3>
+          <ul class="list footer-social-list">
+            <li class="footer-social-item">
+              <a href="" class="link footer-social-link">
+                <svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="address-item">
-              <a class="mail-address-link link" href="mailto:info@example.com">info@example.com</a>
+            <li class="footer-social-item">
+              <a href="" class="link footer-social-link">
+                <svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="address-item">
-              <a class="tel-address-link link" href="tel:+380991111111">+38 099 111 11 11</a>
+            <li class="footer-social-item">
+              <a href="" class="link footer-social-link">
+                <svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="" class="link footer-social-link">
+                <svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
